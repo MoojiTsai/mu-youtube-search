@@ -1,0 +1,20 @@
+{
+  "name": "modern-react",
+  "description": "Simple starter package for Redux with React and Babel support",
+  "main": "index.js",
+  "authors": [
+    "WoodyTsai <starts789@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/MoojiTsai/modern_react_practice-",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
