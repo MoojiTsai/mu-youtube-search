@@ -1,6 +1,6 @@
-# ReduxSimpleStarter
+# To see the Result 
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+https://mu-youtube-search.herokuapp.com/
 
 ### Getting Started
 
