@@ -8,10 +8,16 @@ class SearchBar extends Component {
     } 
     
     render(){
-        return(<div className=" col-md-8">
-            <input className="form-control" value={this.state.term} onChange = {event=>this.setState({term:event.target.value})}/> 
+        return(<div className="col-md-12 search-bar">
+            <input   value={this.state.term}
+            onChange={event=>this.onInputChange(event.target.value)}
+            /> 
             </div>);
-    }     
+    }  
+    onInputChange(term)  {
+        this.setState({term}); 
+        this.props.onSearchChange(term); 
+    } 
 
 } 
 
